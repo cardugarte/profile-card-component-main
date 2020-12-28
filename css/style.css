@@ -1,0 +1,93 @@
+:root
+{
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+
+*
+{
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body
+{
+    background-color: var(--dark-cyan);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 150% top 120%, left 150% bottom 150% ; 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card
+{
+
+    background: url(/images/bg-pattern-card.svg) #fff;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    max-width: 375px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 18px;
+}
+
+.card img
+{
+    margin: 90px 0 15px 0;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.card h1
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.card span
+{
+    margin-left: 5px;
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+}
+
+.card .city
+{
+    color: var(--dark-gray);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 12px 0 25px 0;
+}
+
+.social-date
+{
+    font-size: 10px;
+    padding: 25px 0 20px 0;
+    border-top: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-date h2
+{
+    color: var(--very-dark-desaturated-blue);
+    font-size: 18px;
+}
+
+.social-date h2 span
+{
+    display: block;
+    justify-content: center;
+    padding-top: 5px;
+    letter-spacing: 1px;
+    font-size: 9px;
+}
+
+
